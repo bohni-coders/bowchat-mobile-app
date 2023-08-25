@@ -20,7 +20,8 @@ export default theme => {
     },
     logo: {
       width: deviceWidth * 0.2,
-      height: deviceWidth * 0.5,
+      height: deviceWidth * 0.4,
+      // paddingBottom: 30,
       aspectRatio: 2,
       resizeMode: 'contain',
     },
@@ -52,6 +53,7 @@ export default theme => {
     },
     loginButton: {
       width: '100%',
+      backgroundColor: '#1DC775'
     },
     separator: {
       color: colors.backgroundLight,

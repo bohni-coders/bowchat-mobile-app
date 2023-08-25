@@ -62,14 +62,14 @@ export const actions = {
 export const settingsSlice = createSlice({
   name: 'settings',
   initialState: settingAdapter.getInitialState({
-    baseUrl: 'app.chatwoot.com',
-    installationUrl: 'https://app.chatwoot.com/',
+    baseUrl: 'chat.boni.co.in', //'app.chatwoot.com',
+    installationUrl: 'https://chat.boni.co.in/',//'https://app.chatwoot.com/'
     isLocaleSet: false,
     isSettingUrl: false,
     isUpdating: false,
     localeValue: 'en',
     notification: {},
-    webSocketUrl: 'wss://app.chatwoot.com/cable',
+    webSocketUrl: 'wss://chat.boni.co.in/cable', //'wss://app.chatwoot.com/cable',
   }),
   reducers: {
     resetSettings: state => {

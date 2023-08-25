@@ -214,11 +214,11 @@ const LoginScreenComponent = ({ navigation }) => {
                 </>
               )}
 
-              <TouchableOpacity onPress={() => navigate('ConfigureURL')}>
+              {/* <TouchableOpacity onPress={() => navigate('ConfigureURL')}>
                 <Text xs medium color={colors.textLight}>
                   {i18n.t('LOGIN.CHANGE_URL')}
                 </Text>
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </View>
             <View style={styles.accountView}>
               <TouchableOpacity onPress={toggleChangeLanguageModal}>

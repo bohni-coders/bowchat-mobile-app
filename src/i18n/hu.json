@@ -23,7 +23,7 @@
   },
   "LOGIN": {
     "TITLE": "Belépés",
-    "DESCRIPTION": "You are connected to {{baseUrl}}. Login with your email address and password.",
+    "DESCRIPTION": " Login with your email address and password.",
     "EMAIL": "E-mail",
     "PASSWORD": "Jelszó",
     "EMAIL_REQUIRED": "Email is required",

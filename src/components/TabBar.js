@@ -47,7 +47,7 @@ const renderTabIcon = (route, focused, color, size) => {
       iconName = focused ? 'home' : 'home-outline';
       break;
   }
-  return <Icon icon={iconName} color={focused ? '#1F93FF' : '#293F51'} />;
+  return <Icon icon={iconName} color={focused ? '#1DC775' : '#293F51'} />;
 };
 
 const TabStack = () => {
@@ -64,7 +64,7 @@ const TabStack = () => {
       screenOptions={({ route }) => ({
         headerShown: false,
         tabBarIcon: ({ focused, color, size }) => renderTabIcon(route, focused, color, size),
-        tabBarActiveTintColor: '#1F93FF',
+        tabBarActiveTintColor: '#1DC775',
         tabBarInactiveTintColor: '#293F51',
         tabBarStyle: {
           paddingTop: 2,

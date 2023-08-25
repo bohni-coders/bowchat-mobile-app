@@ -18,7 +18,7 @@ const createStyles = theme => {
 
     image: {
       width: deviceWidth * 0.2,
-      height: deviceWidth * 0.7,
+      height: deviceWidth * 0.6,
       aspectRatio: 2,
       resizeMode: 'contain',
     },

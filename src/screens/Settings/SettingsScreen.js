@@ -267,7 +267,7 @@ const SettingsScreen = () => {
         <View style={styles.separatorView}>
           <View style={styles.separator}>
             <Text bold sm color={colors.textDark}>
-              {i18n.t('SETTINGS.SUPPORT')}
+             '' {/* {i18n.t('SETTINGS.SUPPORT')} */}
             </Text>
           </View>
           <View style={styles.accordionItemWrapper}>

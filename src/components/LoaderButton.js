@@ -67,7 +67,7 @@ const LoaderButton = ({ loading, onPress, text, size, colorScheme, ...customProp
     switch (colorScheme) {
       case 'primary':
         return {
-          backgroundColor: colors.primaryColor,
+          backgroundColor: '#1DC775',//colors.primaryColor,
         };
       case 'secondary':
         return {

@@ -10,8 +10,8 @@
 # Add any project specific keep options here:
 -keep class com.facebook.jni.** { *; }
 -keep public class com.horcrux.svg.** {*;}
--keep class com.chatwoot.app.BuildConfig { *; }
--keep class com.chatwoot.app.BuildConfig { *; }
+-keep class app.bow.chat.BuildConfig { *; }
+-keep class app.bow.chat.BuildConfig { *; }
 -keep class com.swmansion.reanimated.** { *; }
 -keep class com.facebook.react.turbomodule.** { *; }
 -keep class com.facebook.hermes.unicode.** { *; }

@@ -167,7 +167,7 @@ const ChatMessageItemComponent = ({ conversation, type, message, created_at, sho
     type === 'outgoing'
       ? {
           ...styles.messageRight,
-          backgroundColor: isSentByBot ? '#AC52FF' : colors.primaryColor,
+          backgroundColor: isSentByBot ? '#343434' : '#343434', //colors.primaryColor,
         }
       : styles.messageLeft;
   const messageTextStyle =

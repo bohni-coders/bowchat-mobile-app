@@ -442,6 +442,7 @@ const createStyles = theme => {
     sendButtonView: {
       padding: spacing.smaller,
       borderRadius: borderRadius.largest,
+      backgroundColor: '#1DC775'
     },
     lockButton: {
       paddingHorizontal: 0,

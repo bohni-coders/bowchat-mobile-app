@@ -586,7 +586,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chatwoot.app;
+				PRODUCT_BUNDLE_IDENTIFIER = app.bow.chat;
 				PRODUCT_NAME = Chatwoot;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -623,7 +623,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chatwoot.app;
+				PRODUCT_BUNDLE_IDENTIFIER = app.bow.chat;
 				PRODUCT_NAME = Chatwoot;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

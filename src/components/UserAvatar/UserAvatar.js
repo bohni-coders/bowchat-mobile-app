@@ -59,6 +59,7 @@ const Badge = ({ source, size, badgeStyle, activeBadgeColor, activeCircle }) => 
   const theme = useTheme();
   const { colors } = theme;
   const styles = useMemo(() => createStyles(theme), [theme]);
+  
   return source ? (
     <View
       style={[
@@ -120,7 +121,6 @@ const UserAvatar = ({
   const theme = useTheme();
   const { colors } = theme;
   const styles = useMemo(() => createStyles(theme), [theme]);
-
   return avatarUrl ? (
     <View testID="userAvatar">
       <FastImage
@@ -156,7 +156,7 @@ const UserAvatar = ({
   ) : (
     <View testID="userAvatar">
       <LinearGradient
-        colors={['#D6EBFF', '#C2E1FF']}
+        colors={['#343434', '#343434']} //'#D6EBFF', '#C2E1FF'
         style={[
           styles.userThumbNail,
           {
@@ -165,7 +165,7 @@ const UserAvatar = ({
             borderRadius: size,
           },
         ]}>
-        <Text medium color={colors.primaryColorDark} style={{ fontSize: fontSize }}>
+        <Text medium color={ '#FFFFFF' /*colors.primaryColorDark */} style={{ fontSize: fontSize }}>
           {getUserInitial({ userName })}
         </Text>
       </LinearGradient>
